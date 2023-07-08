@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Ravenna';
+}
+
+.navbar nav .liens a {
+    border: none;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    margin-top: -77px;
+    margin-left: 550px;
+}
+
+.navbar nav .liens a.active {
+    border: none;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    font-weight: bolder;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    position: relative;
+    top: -77px;
+}
+
+.navbar nav {
+    position: fixed;
+    background-color: #b1956d;
+    color: #000;
+    width: 100%;
+    height: 98px;
+    top: 0;
+}
+
+.navbar nav img {
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+.navbar nav h2 {
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    top: -40px;
+    left: 200px;
+}
